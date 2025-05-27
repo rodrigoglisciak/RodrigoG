@@ -1,9 +1,9 @@
 .head001{
     display: flex;
-    position: fixed;
-    z-index: 100;
+    position: sticky;
     top: 0;
     left: 0;
+    margin: auto;
     background: blueviolet;
     width: 100%;
 }
@@ -11,15 +11,14 @@
 .head003{
  
     display: flex;
+    justify-content: center;
+    width: 100%;
     margin: 5px;
-    margin-top: 20px;
-    justify-content: flex-end;
-    width: 85%;
     
 }
 
 .head004{
-  margin: 5px;
+  margin: 10px;
   
 }
 
@@ -29,6 +28,4 @@ a{
 }
 
 
-#conta001, #ont001,#cont002,#cont003, #cont004{
-    margin-top: 100px;
-}
+
